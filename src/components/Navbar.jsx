@@ -1,18 +1,21 @@
 import React from "react";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaGithub,
+  FaSquareXTwitter,
+  FaInstagram,
+} from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <nav className="mb-20 flex items-center justify-between py-6">
+    <nav className="mb-10 flex flex-col items-center justify-between space-y-4 p-4 lg:flex-row lg:space-y-0 lg:py-6">
+      {/* Logo */}
       <div className="flex flex-shrink-0 items-center space-x-2">
         <svg
           width="306.40999603271484"
           height="35.45913788750726"
           viewBox="0 0 369.7027027027027 42.78365354346853"
-          className="looka-1j8o68f"
+          className="looka-1j8o68f w-24 h-auto lg:w-32"
         >
           <g
             id="SvgjsG1160"
@@ -32,11 +35,12 @@ const Navbar = () => {
         </svg>
       </div>
 
-      <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
-        <FaSquareXTwitter />
-        <FaInstagram />
+      {/* Social Icons */}
+      <div className="flex items-center justify-center gap-4 text-xl lg:text-2xl">
+        <FaLinkedin className="hover:text-blue-500 transition-colors" />
+        <FaGithub className="hover:text-gray-800 transition-colors" />
+        <FaSquareXTwitter className="hover:text-blue-400 transition-colors" />
+        <FaInstagram className="hover:text-pink-500 transition-colors" />
       </div>
     </nav>
   );
