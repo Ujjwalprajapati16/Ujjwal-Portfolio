@@ -24,7 +24,7 @@ export const EXPERIENCES = [
     technologies: ["Python", "JavaScript", "Data Structures", "Git"],
   },
   {
-    year: "2024 - Present",
+    year: "2024",
     role: "Postman API Fundamentals Student Expert",
     company: "Canvas Credentials",
     description: `Completed the Postman API Fundamentals program to strengthen API development and testing skills.`,
@@ -72,6 +72,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Bhopal, Madhya Pradesh, India",
-  phoneNo: "+91 98765 43210",
-  email: "ujjwal@example.com",
+  phoneNo: "+91 7067848076",
+  email: "ujjwalprajapati154@gmail.com",
 };
