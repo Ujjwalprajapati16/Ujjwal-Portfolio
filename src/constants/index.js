@@ -3,38 +3,39 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `Hello, I'm Ujjwal Prajapati, a passionate tech enthusiast and dedicated programmer currently pursuing a Bachelor of Technology (BTech) in Computer Science at LNCT University in Bhopal. With skills in technologies like Python, JavaScript, and Node.js, I'm committed to building impactful web applications and exploring new technological possibilities.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `Hello! I'm Ujjwal Prajapati, a tech enthusiast and driven software developer with a passion for building solutions that bring real value to users. I’m currently pursuing my Bachelor of Technology (BTech) in Computer Science at LNCT University in Bhopal. From a young age, I've been fascinated by how technology shapes our world, and this curiosity evolved into a deep commitment to mastering my craft.
+
+I’m known for my dedication to continuous learning, always striving to sharpen my skills in core programming languages like Python and JavaScript. My journey has been enriched by hands-on experience with APIs, data structures, and various frameworks that allow me to develop scalable, efficient, and user-centered applications.
+
+Beyond academics, I am also actively involved in team projects and competitions, where I’ve had the opportunity to showcase my leadership and collaborative abilities. Recently, I had the honor of contributing to a project that won second place at a prestigious startup idea pitching event. This experience taught me a lot about teamwork, communication, and innovation—all qualities I carry into my everyday work.
+
+When it comes to skills, I am proficient in full-stack development, specializing in back-end technologies like Node.js and databases such as MongoDB and MySQL. I also have certifications in API development and advanced software engineering, which give me a strong foundation in creating seamless, reliable, and scalable web applications. I’m especially excited about the possibilities within Back-End Web Development and am constantly exploring how I can use my skills to make a lasting impact in tech and education.
+
+Outside of my coding life, I enjoy staying active, exploring new technologies, and diving into open-source projects. These hobbies not only keep me engaged but also help me stay connected to a wider tech community where I can learn and contribute meaningfully.`;
 
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    role: "Student",
+    company: "LNCT University",
+    description: `Pursuing a Bachelor of Technology in Computer Science with a focus on practical programming and collaborative projects.`,
+    technologies: ["Python", "JavaScript", "Data Structures", "Git"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "2024 - Present",
+    role: "Postman API Fundamentals Student Expert",
+    company: "Canvas Credentials",
+    description: `Completed the Postman API Fundamentals program to strengthen API development and testing skills.`,
+    technologies: ["APIs", "Postman"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2023",
+    role: "Advanced Software Engineering Virtual Experience Program",
+    company: "Walmart Global Tech",
+    description: `Engaged in a virtual experience covering advanced software engineering practices, focusing on scalable and maintainable code.`,
+    technologies: ["JavaScript", "Node.js", "React"],
   },
 ];
 
@@ -43,34 +44,34 @@ export const PROJECTS = [
     title: "E-Commerce Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A functional e-commerce site with product listings, a shopping cart, and user authentication.",
+    technologies: ["React", "Node.js", "MongoDB"],
   },
   {
     title: "Task Management App",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An app for managing tasks, featuring task creation, assignment, and tracking.",
+    technologies: ["Angular", "Firebase"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A personal portfolio showcasing my projects, skills, and contact information.",
+    technologies: ["React", "Bootstrap"],
   },
   {
-    title: "Blogging Platform",
+    title: "AI Text Summarizer",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A full-stack AI text summarizer app using Node.js, Express, and the Hugging Face API.",
+    technologies: ["Node.js", "Express", "Replit"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Bhopal, Madhya Pradesh, India",
+  phoneNo: "+91 98765 43210",
+  email: "ujjwal@example.com",
 };
